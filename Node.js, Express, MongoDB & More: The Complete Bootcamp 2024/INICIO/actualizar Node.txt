@@ -1,0 +1,51 @@
+Cómo actualizar Node.js en Mac y Windows
+
+Si bien existen muchas formas para actualizar Node.js en Mac y Windows, probablemente la mejor es mediante su propio administrador de paquetes, conocido como NPM, o bien al descargar e instalar la última versión tú mismo.
+Actualización con NPM
+
+Para instalar las actualizaciones mediante este gestor de paquetes, sigue estos pasos:
+
+    Abre la terminal y revisa mediante node -v qué versión de Node.js tienes.
+    Instala el paquete «n» con el siguiente comando: npm install -g n. Este tiene una herramienta llamada «n» que puedes usar para que el proceso de instalación sea más sencillo.
+    Para actualizar Node.js, haz correr el comando n latest en tu terminal. Con esta instrucción, se instalará la versión más actual en tu sistema.
+    Verifica que se haya completado la actualización al revisar de nuevo la versión de Node.js con la que cuentas, mediante node -v.
+
+Recuerda que también puedes descargar e instalar de forma manual la última versión de Node.js desde su sitio web oficial. 
+
+
+
+
+Cómo actualizar Node.js en Linux
+
+Actualizar Node.js en Linux es un poco diferente a hacerlo desde Mac o Windows. Para ello, será necesario que descargues otros tipos de gestores de paquetes, conocidos como NVM o APT. Veamos cómo puedes hacer la actualización por cada una de estas opciones.
+Actualización con NVM
+
+El gestor de versiones NVM es una herramienta diseñada para administrar múltiples versiones de Node.js en tu sistema. Con él, puedes instalar, actualizar y migrar entre varias de ellas.
+
+Para utilizarlo, atiende estos pasos:
+
+    Revisa si ya tienes NVM instalado en tu sistema, mediante nvm --version.
+    Si no es así, utiliza este comando: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash.
+    Una vez que NVM ha sido instalado, revisa mediante el comando node -v, qué versión de Node-js tienes.
+    Ahora, descarga la versión más nueva de Node con la instrucción nvm install node --reinstall-packages-from=node.
+    Por último, verifica que tu actualización está completa al revisar la versión de Node.js con la que cuentas, mediante node -v.
+
+Actualización con APT
+
+APT es un gestor de paquetes creado para distribuidores de Linux y basado en Debian, como Ubuntu. Para llevar a cabo la actualización por este medio, sigue estas indicaciones:
+
+    Revisa qué versión de Node.js tienes, a través de node -v.
+    Haz correr el comando sudo apt-get install nodejs para instalar la versión más reciente de Node.js.
+    Por último, verifica que tu actualización esté completa, mediante node -v.
+
+Estas son solo algunas formas de actualizar este recurso en tus equipos. Considera efectuar este procedimiento no solo por motivos de seguridad, sino también para acceder a las mejores funciones y arreglos de la plataforma.
+Consejos para actualizar Node.js
+
+Instalar una actualización de Node.js puede ser un proceso simple. Gracias a los siguientes consejos, podrás asegurarte de que sea así todo el tiempo.
+
+    Cerciórate de que la versión que tienes esté lo más actualizada posible. De otro modo, cuando una nueva se libere, es probable que tu plataforma tenga problemas para procesarla.
+    Verifica cualquier nueva herramienta o solución a errores en un ambiente de prueba antes de integrar una versión actualizada a tu programa. Esto te ayudará a tener la seguridad de que todo funciona a la perfección antes de hacer cambios en tiempo real.
+    Confirma que tu ambiente de desarrollo ha sido respaldado para que puedas regresar a otra versión en caso de que algo salga mal.
+    Mantente atento sobre los nuevos lanzamientos de Node.js para siempre estar al día, ya sea mediante su newsletter o a través de su página web.
+
+Los beneficios de Node.js son muchos: desde un ambiente simple y amigable hasta herramientas novedosas y potentes, por lo que ofrece una experiencia inigualable para los desarrolladores. Mantener la plataforma actualizada en sus versiones más actuales es importante para sacar el mayor provecho de las ventajas de JavaScript. Ahora que sabes cómo mantenerte al día con este sistema, te será muy fácil cumplir con este procedimiento.
